@@ -9,7 +9,7 @@ export default function Home() {
       {/* <Effect dependiency={false} /> */}
       {/* <Reducer /> */}
       {/* <Callback /> */}
-      <Memo />
+      {/* <Memo /> */}
     </div>
   );
 }
