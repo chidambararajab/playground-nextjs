@@ -1,15 +1,8 @@
-import { Effect, Reducer, Ref } from "@/hooks";
-import Callback from "@/hooks/Callback";
-import { Memo } from "@/hooks/Memo";
+import axios from "axios";
 
 export default function Home({ posts }) {
   return (
     <div>
-      {/* <Ref /> */}
-      {/* <Effect dependiency={false} /> */}
-      {/* <Reducer /> */}
-      {/* <Callback /> */}
-      {/* <Memo /> */}
       <div>
         <h1>Latest Posts:</h1>
         <ul>
